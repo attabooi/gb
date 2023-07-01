@@ -10,7 +10,7 @@ if(isset($_POST['submitcontact']))
 	$subject=$_POST['subject'];
 	$message=$_POST['message'];
 
-	$to = "youremail@gmail.com";
+	$to = "ex0831@naver.com";
 	$subject = "Html5xCss3 - Testing Contact Form";
 	$message = " Name: " . $name ."\r\n Email: " . $email . "\r\n Message:\r\n" . $message;
 	 
