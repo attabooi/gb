@@ -15,13 +15,13 @@ Free Bootstrap Themes : http://www.Html5xCss3.com
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
 body {font-family: 'Source Sans Pro', sans-serif;font-weight: 400;color: #666;background-color: #fff;font-size: 15px;line-height: 24px;hyphens: auto;overflow-wrap: break-word;}
-html, body {width:100%; padding:0; margin:0;}
+html, body {width:100%; height: 100%; overflow: auto; padding:0; margin:0;}
 
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- */
 html { -webkit-text-size-adjust: none;}
-.video embed,.video object,.video iframe { width: 100%;  height: auto;}
+.video embed,.video object,.video iframe { width: 100%;  height: 100%; overflow: auto;}
 img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 
 h1 {font-size: 38px;}
@@ -93,7 +93,7 @@ body .wrap-body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     height: 100vh;
 }
