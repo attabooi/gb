@@ -139,7 +139,13 @@ body .wrap-body {
 }
 
 @media(max-width:500px){
-	#intro{width: 250px;}
+	#intro {
+		width: 100%; /* 전체 너비를 차지하도록 변경 */
+		display: flex;
+		justify-content: center; /* 가로 방향 가운데 정렬 */
+		transform: scale(1.5); /* 화면 확대를 위해 scale 값을 조정 (2는 예시입니다) */
+	  }
+	  
 	.line-1{font-size: 17px;}
 	.line-2{font-size: 50px;letter-spacing: 8px;}
 	.line-3{font-size: 12px;margin: 40px 0 0;letter-spacing: 3px;}
